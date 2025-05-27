@@ -1,4 +1,36 @@
-h1 {
+body {
   font-family: "poppins";
-  font-weight: 400;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(images/kyoto1.jpg);
+  background-repeat: none;
+  background-size: cover;
+  padding: 160px 160px;
+  text-align: center;
+}
+
+header h1 {
+  font-weight: 400px;
+  font-size: 54px;
+  color: white;
+  margin-bottom: 3px;
+}
+header h2 {
+  font-weight: 200;
+  color: white;
+}
+
+header a {
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  padding: 12px 8px;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
 }
