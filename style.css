@@ -4,7 +4,7 @@ body {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
-    url(images/kyoto1.jpg);
+    url(images/milan.jpg);
   background-repeat: none;
   background-size: cover;
   padding: 160px 160px;
@@ -32,5 +32,9 @@ header a {
 }
 
 footer {
-  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url(images/milan-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
